@@ -27,7 +27,7 @@ class FileCDTest {
         11,
         1965
     )
-/*
+
 
     @Test
     fun `test nouvelle file est vide`() {
@@ -150,6 +150,6 @@ class FileCDTest {
             file.queue()
         }
     }
-*/
+
 
 }
