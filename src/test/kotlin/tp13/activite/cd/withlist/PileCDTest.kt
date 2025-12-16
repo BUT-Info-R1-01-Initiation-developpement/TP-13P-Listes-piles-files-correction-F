@@ -27,7 +27,7 @@ class PileCDTest {
         11,
         1965
     )
-/*
+
 
     @Test
     fun `test nouvelle pile est vide`() {
@@ -131,6 +131,6 @@ class PileCDTest {
             pile.sommet()
         }
     }
-*/
+
 
 }
