@@ -10,6 +10,7 @@ class PileCD {
     private val cds = mutableListOf<CompactDisc>()
 
     /**
+     * Complexité O(1)
      * @return le nombre d'éléments dans la pile.
      */
     fun taille(): Int {
@@ -17,6 +18,7 @@ class PileCD {
     }
 
     /**
+     * Complexité O(1)
      * @return le CD au sommet de la pile.
      */
     fun sommet(): CompactDisc {
@@ -25,6 +27,7 @@ class PileCD {
     }
 
     /**
+     * Complexité O(1)
      * @return true si la liste est vide, false sinon
      */
     fun estVide(): Boolean {
@@ -33,7 +36,7 @@ class PileCD {
 
     /**
      * Ajoute le [cd] passé en paramètre en haut de la pile.
-     *
+     * Complexité O(1)
      * @param cd le CD à ajouter à la pile.
      */
     fun empile(cd: CompactDisc) {
@@ -42,6 +45,7 @@ class PileCD {
 
     /**
      * Sort de la pile le CD actuellement au sommet de la pile.
+     * Complexité O(1)
      *
      * @return le CD sorti du sommet de la pile.
      */
@@ -52,7 +56,7 @@ class PileCD {
 
     /**
      * Vide la pile.
-     *
+     * Complexité O(1)
      */
     fun vide() {
         this.cds.clear()
