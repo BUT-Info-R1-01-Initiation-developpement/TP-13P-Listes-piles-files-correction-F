@@ -13,4 +13,11 @@ data class CompactDisc(
     val titreAlbum: String,
     val nombreChansons: Int,
     val anneeSortie: Int
-)
+) {
+    init {
+        require(this.artiste.isNotBlank()) { "Artiste non valide." }
+        require(this.titreAlbum.isNotBlank()) { "Artiste non valide." }
+        require(this.nombreChansons > 0) { "Au moins une chanson." }
+        require(this.anneeSortie in 1900..2026) { "Année de sortie invalide." }
+    }
+}

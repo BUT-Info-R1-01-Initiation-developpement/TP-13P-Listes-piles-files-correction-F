@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 
 class CompactDiscTest {
-/*
+
     @Test
     fun `test création CD valide`() {
         // given un nouveau CD
@@ -101,5 +101,5 @@ class CompactDiscTest {
             }
         }
     }
-    */
+
 }
